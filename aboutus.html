@@ -11,11 +11,12 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <!-- Bootstrap CSS -->
+    <!-- build:css css/main.css -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
      <link rel="stylesheet" type="text/css" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="node_modules/bootstrap-social/bootstrap-social.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
-
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <!-- endbuild -->
 </head>
 <body>
     <nav class ="navbar navbar-dark navbar-expand-sm fixed-top">
@@ -103,9 +104,7 @@
         <div >
             <div class="row row-content">
                 <h2>Corporate Leadership</h2>
-                
-
-            <div id="accordion">
+                <div id="accordion">
             	<div class="card">
             		<div class="card-header" role="tab" id="peterhead">
             			<a data-toggle="collapse" data-target="#peter"><h3 class="mb-0">Peter Pan <small>Chief Epicurious Officer</small></h3></a>
@@ -195,7 +194,7 @@
         
             
 
-    <footer id="my-footer">
+    <footer class="footer">
         <div class="container">
             <div class="row">             
                 <div class="col-4 offset-1 col-sm-2">
@@ -239,8 +238,9 @@
     
 </body>
  <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+ <!-- build:js js/main.js -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
+ <!-- endbuild -->
 </html>
